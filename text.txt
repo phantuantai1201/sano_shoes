@@ -1,0 +1,306 @@
+
+
+
+
+    
+
+
+<!-- <div class="product__item-shoes">
+                                    <div class="thumb-item"><img src="./images/s1.jpg" alt=""></div>
+                                    <span class="badge red">New</span>
+                                    <div class="item__info-product">
+                                   <h4>BELLA TOES</h4>
+                                    </div>
+                                    <a href="#" class="quick-view">Quick View</a>
+                                    <div class="item__price-product">
+                                        <div class="price-text">
+                                            <span class="money">$675.00</span>
+                                            <ul>
+                                                <li>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star-half'></i>
+                                                    <i class='bx bx-star'></i></li>
+                                            </ul>
+                                        </div>
+        
+                                        <div class="price-btn">
+                                            <a href="#"><i class='bx bxs-cart' ></i></a>
+                                        </div>
+                                    </div> -->
+                                <!-- </div>
+        
+                                <div class="product__item-shoes">
+                                    <div class="thumb-item"><img src="./images/s2.jpg" alt=""></div>
+                                    <span class="badge yellow">New</span>
+                                    <div class="item__info-product">
+                                        <h4>Chikku Loafers</h4>
+                                    </div>
+                                    <a href="#" class="quick-view">Quick View</a>
+        
+                                    <div class="item__price-product">
+                                        <div class="price-text">
+                                            <span class="money">$405.00</span>
+                                            <ul>
+                                                <li>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star-half'></i>
+                                                    <i class='bx bx-star'></i></li>
+                                            </ul>
+                                        </div>
+        
+                                        <div class="price-btn">
+                                            <a href="#"><i class='bx bxs-cart' ></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="product__item-shoes">
+                                    <div class="thumb-item"><img src="./images/s3.jpg" alt=""></div>
+                                    <span class="badge blue">New</span>
+                                    <div class="item__info-product">
+                                        <h4>(SRV) SNEAKERS</h4>
+                                    </div>
+                                    <a href="#" class="quick-view">Quick View</a>
+        
+                                    <div class="item__price-product">
+                                        <div class="price-text">
+                                            <span class="money">$375.00</span>
+                                            <ul>
+                                                <li>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star-half'></i>
+                                                    <i class='bx bx-star'></i></li>
+                                            </ul>
+                                        </div>
+        
+                                        <div class="price-btn">
+                                            <a href="#"><i class='bx bxs-cart' ></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="product__item-shoes">
+                                    <div class="thumb-item"><img src="./images/s4.jpg" alt=""></div>
+                                    <span class="badge blue">New</span>
+                                    <div class="item__info-product">
+                                        <h4>SHUBERRY HEELS</h4>
+                                    </div>
+                                    <a href="#" class="quick-view">Quick View</a>
+        
+                                    <div class="item__price-product">
+                                        <div class="price-text">
+                                            <span class="money">$575.00</span>
+                                            <ul>
+                                                <li>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star-half'></i>
+                                                    <i class='bx bx-star'></i></li>
+                                            </ul>
+                                        </div>
+        
+                                        <div class="price-btn">
+                                            <a href="#"><i class='bx bxs-cart' ></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="product__item-shoes">
+                                    <div class="thumb-item"><img src="./images/s5.jpg" alt=""></div>
+                                    <span class="badge red">New</span>
+                                    <div class="item__info-product">
+                                        <h4>RED BELLIES</h4>
+                                    </div>
+                                    <a href="#" class="quick-view">Quick View</a>
+        
+                                    <div class="item__price-product">
+                                        <div class="price-text">
+                                            <span class="money">$325.00</span>
+                                            <ul>
+                                                <li>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star-half'></i>
+                                                    <i class='bx bx-star'></i></li>
+                                            </ul>
+                                        </div>
+        
+                                        <div class="price-btn">
+                                            <a href="#"><i class='bx bxs-cart' ></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="product__item-shoes">
+                                    <div class="thumb-item"><img src="./images/s6.jpg" alt=""></div>
+                                    <span class="badge yellow">New</span>
+                                    <div class="item__info-product">
+                                        <h4>CATWALK FLATS</h4>
+                                    </div>
+                                    <a href="#" class="quick-view">Quick View</a>
+        
+                                    <div class="item__price-product">
+                                        <div class="price-text">
+                                            <span class="money">$425.00</span>
+                                            <ul>
+                                                <li>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star-half'></i>
+                                                    <i class='bx bx-star'></i></li>
+                                            </ul>
+                                        </div>
+        
+                                        <div class="price-btn">
+                                            <a href="#"><i class='bx bxs-cart' ></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="product__item-shoes">
+                                    <div class="thumb-item"><img src="./images/s7.jpg" alt=""></div>
+                                    <span class="badge yellow">New</span>
+                                    <div class="item__info-product">
+                                        <h4>RUNNING SHOES</h4>
+                                    </div>
+                                    <a href="#" class="quick-view">Quick View</a>
+        
+                                    <div class="item__price-product">
+                                        <div class="price-text">
+                                            <span class="money">$875.00</span>
+                                            <ul>
+                                                <li>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star-half'></i>
+                                                    <i class='bx bx-star'></i></li>
+                                            </ul>
+                                        </div>
+        
+                                        <div class="price-btn">
+                                            <a href="#"><i class='bx bxs-cart' ></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="product__item-shoes">
+                                    <div class="thumb-item"><img src="./images/s8.jpg" alt=""></div>
+                                    <span class="badge blue">New</span>
+                                    <div class="item__info-product">
+                                        <h4>SUKUN CASUALS</h4>
+                                    </div>
+                                    <a href="#" class="quick-view">Quick View</a>
+        
+                                    <div class="item__price-product">
+                                        <div class="price-text">
+                                            <span class="money">$505.00</span>
+                                            <ul>
+                                                <li>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star-half'></i>
+                                                    <i class='bx bx-star'></i></li>
+                                            </ul>
+                                        </div>
+        
+                                        <div class="price-btn">
+                                            <a href="#"><i class='bx bxs-cart' ></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="product__item-shoes">
+                                    <div class="thumb-item"><img src="./images/s9.jpg" alt=""></div>
+                                    <span class="badge red">New</span>
+                                    <div class="item__info-product">
+                                        <h4>BANK SNEAKERS</h4>
+                                    </div>
+                                    <a href="#" class="quick-view">Quick View</a>
+        
+                                    <div class="item__price-product">
+                                        <div class="price-text">
+                                            <span class="money">$635.00</span>
+                                            <ul>
+                                                <li>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star'></i>
+                                                    <i class='bx bxs-star-half'></i>
+                                                    <i class='bx bx-star'></i></li>
+                                            </ul>
+                                        </div>
+        
+                                        <div class="price-btn">
+                                            <a href="#"><i class='bx bxs-cart' ></i></a>
+                                        </div>
+                                    </div>
+                                </div> -->
+
+
+
+
+
+
+
+
+                                <!-- <div class="special__section">
+                                <div class="special__img"><img src="./images/s4.jpg" alt=""></div>
+                                <div class="special__text">
+                                    <h3>Shuberry Heels</h3>
+                                    <span>$180.00</span>
+                                </div>
+                            </div>
+        
+        
+        
+                            <div class="special__section">
+                                <div class="special__img"><img src="./images/s3.jpg" alt=""></div>
+                                <div class="special__text">
+                                    <h3>(SRV) Sneakers</h3>
+                                    <span>$169.00</span>
+                                </div>
+                            </div>
+        
+        
+        
+                            <div class="special__section">
+                                <div class="special__img"><img src="./images/s2.jpg" alt=""></div>
+                                <div class="special__text">
+                                    <h3>Chikku Loafers</h3>
+                                    <span>$99.00</span>
+                                </div>
+                            </div>
+        
+        
+        
+                            <div class="special__section">
+                                <div class="special__img"><img src="./images/s1.jpg" alt=""></div>
+                                <div class="special__text">
+                                    <h3>Bella Toes</h3>
+                                    <span>$165.00</span>
+                                </div>
+                            </div>
+        
+        
+        
+                            <div class="special__section">
+                                <div class="special__img"><img src="./images/s5.jpg" alt=""></div>
+                                <div class="special__text">
+                                    <h3>Red Bellies</h3>
+                                    <span>$225.00</span>
+                                </div>
+                            </div> -->
+
+
+                           

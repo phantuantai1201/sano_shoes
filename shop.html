@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sano Shoes | Shop</title>
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.svg" />
+    <!-- Box Icon -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- CSS Custom -->
+    <link rel="stylesheet" href="./css/shop.css">
+</head>
+<body>
+    
+
+    <header class="header">
+
+        <div class="cart__mini">
+            <div class="close__cart">
+                <i class='bx bx-x'></i>
+            </div>
+            <ul>
+                
+    
+                <!-- <li>
+                    <div class="cart__name">
+                        <a href="#">Demo 1</a>
+                    </div>
+                    <div class="cart__text">
+                        <p id="cart-item-title">cart item</p>
+                        <span>$</span>
+                        <span id="cart-item-price" class="cart-item-price">10.99</span>
+                    </div>
+                    <div class="cart__icon-trash">
+                        <a href="#" id='cart-item-remove' class="cart-item-remove">
+                            <i class='bx bx-trash-alt'></i>
+                        </a>
+                    </div>
+                </li>
+    
+                <li>
+                    <div class="cart__name">
+                        <a href="#">Demo 1</a>
+                    </div>
+                    <div class="cart__text">
+                        <p id="cart-item-title">cart item</p>
+                        <span>$</span>
+                        <span id="cart-item-price" class="cart-item-price">10.99</span>
+                    </div>
+                    <div class="cart__icon-trash">
+                        <a href="#" id='cart-item-remove' class="cart-item-remove">
+                            <i class='bx bx-trash-alt'></i>
+                        </a>
+                    </div>
+                </li> -->
+            </ul>
+            <div class="cart__total">
+                <div class="cart__total-text">
+                    Subtotal: <span>???</span>
+                </div>
+                <div class="cart__submit-checkout" onclick="renderCheckout()">
+                    <a href="./checkout.html">Check Out</a>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="search__form">
+            <form action="">
+                <input type="text" class="search__input " placeholder="Click Enter When Tapping...">
+            </form>
+        </div>
+    
+        <div class="navigation__menu">
+            <ul class="navbar__list">
+                <li class="navbar__item">
+                    <a href="./index.html" class="navbar__link">Home</a>
+                </li>
+    
+                <li class="navbar__item">
+                    <a href="./about.html" class="navbar__link">About</a>
+                </li>
+    
+                <li class="navbar__item">
+                    <a href="./404.html" class="navbar__link">Team</a>
+                </li>
+    
+                <li class="navbar__item">
+                    <a href="./shop.html" class="navbar__link">Shop Now</a>
+                </li>
+    
+                <li class="navbar__item">
+                    <a href="./contact.html" class="navbar__link">Contact</a>
+                </li>
+            </ul>
+            <i class='bx bx-x close__btn'></i>
+        </div>
+        <div class="header__navigation">
+            <div class="logo">
+                <a class="navbar__brand" href="./index.html">
+                    <span>Sano</span> <i>Shoes</i>
+                </a>
+            </div>
+            <div class="navigation__item">
+                <div class="cart__item">
+                    <div class="cart__icon">
+                        <i class='bx bxs-cart-add'></i>
+                    </div>
+                </div>
+    
+    
+    
+                <div class="search__btn">
+                    <i class='bx bx-search-alt-2'></i>
+                </div>
+    
+                <div class="navbar__menu">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </div>
+        </div>
+    
+        <div class="breadcrumb">
+            <ul>
+                <li>
+                    <a href="./index.html">Home</a>
+                    <i>|</i>
+                </li>
+                <li>Shop</li>
+            </ul>
+        </div>
+        </header>
+
+        <div class="shop">
+            <div class="shop-container container">
+                <div class="shop__left">
+                    <div class="shop__search">
+                        <h3 class="shop__left-search-header">Search Here</h3>
+                        <form action="#">
+                            <input type="text" placeholder="Product Name" class="shop__input" required>
+                            <a href="#" class="shop__search-btn"><i class='bx bx-search'></i></a>
+                        </form>
+                    </div>
+        
+                    <div class="occasion">
+                        <h3 class="text-header">
+                            Occasion
+                        </h3>
+        
+                        <ul class="left__side-list">
+                            <li class="left__side-item">
+                                <input type="checkbox" class="checked"> <span>Casual</span>
+                            </li>
+        
+                            <li class="left__side-item">
+                                <input type="checkbox" class="checked"> <span>Party</span>
+                            </li>
+        
+                            <li class="left__side-item">
+                                <input type="checkbox" class="checked"> <span>Wedding</span>
+                            </li>
+        
+                            <li class="left__side-item">
+                                <input type="checkbox" class="checked"> <span>Ethnic</span>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <div class="occasion">
+                        <h3 class="text-header">
+                            Discount
+                        </h3>
+        
+                        <ul class="left__side-list">
+                            <li class="left__side-item">
+                                <input type="checkbox" class="checked"> <span>5% or More</span>
+                            </li>
+        
+                            <li class="left__side-item">
+                                <input type="checkbox" class="checked"> <span>10% or More</span>
+                            </li>
+        
+                            <li class="left__side-item">
+                                <input type="checkbox" class="checked"> <span>20% or More</span>
+                            </li>
+        
+                            <li class="left__side-item">
+                                <input type="checkbox" class="checked"> <span>30% or More</span>
+                            </li>
+        
+                            <li class="left__side-item">
+                                <input type="checkbox" class="checked"> <span>50% or More</span>
+                            </li>
+        
+                            <li class="left__side-item">
+                                <input type="checkbox" class="checked"> <span>60% or More</span>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <div class="occasion">
+                        <h3 class="text-header">
+                            Customer Review
+                        </h3>
+                        <ul class="customer__review">
+                            <li>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <span>5.0</span>
+                            </li>
+        
+                            <li>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bx-star'></i></a>
+                                <span>4.0</span>
+                            </li>
+        
+                            <li>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bx-star'></i></a>
+                                <a href="#"><i class='bx bx-star'></i></a>
+                                <span>3.0</span>
+                            </li>
+        
+                            <li>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bx-star'></i></a>
+                                <a href="#"><i class='bx bx-star'></i></a>
+                                <a href="#"><i class='bx bx-star'></i></a>
+                                <span>2.0</span>
+                            </li>
+        
+                            <li>
+                                <a href="#"><i class='bx bxs-star'></i></a>
+                                <a href="#"><i class='bx bx-star'></i></a>
+                                <a href="#"><i class='bx bx-star'></i></a>
+                                <a href="#"><i class='bx bx-star'></i></a>
+                                <a href="#"><i class='bx bx-star'></i></a>
+                                <span>1.0</span>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <div class="special__deal">
+                        <h3 class="text-header">Special Deals</h3>
+                        <div class="special__main">
+                        </div>
+                    </div>
+                </div>
+        
+        
+                <div class="shop__right">
+                    <div class="shop__wrapper">
+                        <div class="wrapper__head">
+                            <div class="wrapper__head-left">
+                                <img src="./images/banner3.jpg" alt="">
+                                <h6>40% Off</h6>
+                            </div>
+        
+                            <div class="wrapper__head-right">
+                                <img src="./images/banner2.jpg" alt="">
+                                <h6>50% Off</h6>
+                            </div>
+                        </div>
+        
+                        <div class="shop__wrapper-section">
+                            
+                            <div class="product__info-shoes">
+                                
+                            </div>
+                        </div>
+        
+                        <div class="wrapper__head">
+                            <div class="wrapper__head-left">
+                                <img src="./images/banner4.jpg" alt="">
+                                <h6>21% Off</h6>
+                            </div>
+        
+                            <div class="wrapper__head-right">
+                                <img src="./images/banner1.jpg" alt="">
+                                <h6>31% Off</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="more__shoes">
+            <div class="more__shoes-text">
+                <p>Some More Shoes</p>
+            </div>
+            <div class="more__shoes-img">
+                <div class="thumbnail">
+                    <img src="./images/g1.jpg" alt="">
+                </div>
+                <div class="thumbnail">
+                    <img src="./images/g2.jpg" alt="">
+                </div>
+                <div class="thumbnail">
+                    <img src="./images/g3.jpg" alt="">
+                </div>
+                <div class="thumbnail">
+                    <img src="./images/g4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="newsletter">
+            <div class="newsletter_container container">
+                <div class="newsletter-text">
+                    <p>Sign up for Newsletter !</p>
+                </div>
+                <div class="newsletter-form">
+                    <form action="">
+                        <input type="email" class="email__input" placeholder="Enter Your Email...">
+                        <a href="#" class="newsletter-btn">Submit</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer__content container">
+                <div class="footer__left">
+                    <h2>
+                        <a href="./index.html">
+                            <span>S</span>ano Shoes
+                        </a>
+                    </h2>
+                    <p>Niềm vui và sự thoải mái của quý khách chính là niềm hạnh phúc và hãnh diện của chúng tôi</p>
+                    <ul class="footer__social">
+                        <li class="footer__social-item">
+                            <a href="#" class="footer__social-link">
+                                <div class="fb"><i class='bx bxl-facebook'></i></div>
+                            </a>
+                        </li>
+        
+                        <li class="footer__social-item">
+                            <a href="#" class="footer__social-link">
+                                <div class="twt"><i class='bx bxl-twitter'></i></div>
+                            </a>
+                        </li>
+        
+                        <li class="footer__social-item">
+                            <a href="#" class="footer__social-link">
+                                <div class="ins"><i class='bx bxl-instagram'></i></div>
+                            </a>
+                        </li>
+        
+                        <li class="footer__social-item">
+                            <a href="#" class="footer__social-link">
+                                <div class="lkd"><i class='bx bxl-linkedin'></i></div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        
+                <div class="footer__right">
+                    <div class="information__1">
+                        <h3 class="information__header">
+                            <span>Our</span> Information
+                        </h3>
+        
+                        <ul class="footer__navbar">
+                            <li class="footer__navbar-item">
+                                <a href="./index.html" class="footer__navbar-link">Home</a>
+                            </li>
+        
+                            <li class="footer__navbar-item">
+                                <a href="./about.html" class="footer__navbar-link">About</a>
+                            </li>
+        
+                            <li class="footer__navbar-item">
+                                <a href="./404.html" class="footer__navbar-link">Services</a>
+                            </li>
+        
+                            <li class="footer__navbar-item">
+                                <a href="./404.html" class="footer__navbar-link">Short Code</a>
+                            </li>
+        
+                            <li class="footer__navbar-item">
+                                <a href="./contact.html" class="footer__navbar-link">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <div class="information__2">
+                        <h3 class="information__header">
+                            <span>Store</span> Information
+                        </h3>
+        
+                        <div class="infor">
+                            <div class="phone__number">
+                                <div class="icon"><i class='bx bx-phone'></i></div>
+                                <div class="information__text">
+                                    <h6>Phone Number</h6>
+                                    <p>0774178644</p>
+                                </div>
+                            </div>
+        
+                            <div class="email">
+                                <div class="icon"><i class='bx bx-envelope'></i></div>
+                                <div class="information__text">
+                                    <h6>Email Address</h6>
+                                    <p>Email:
+                                        <a href="#" class="mail"> phantuantai1201@gmail.com </a>
+                                    </p>
+                                </div>
+                            </div>
+        
+                            <div class="location">
+                                <div class="icon map"><i class='bx bx-map'></i></div>
+                                <div class="information__text">
+                                    <h6>Location</h6>
+                                    <p>C11B/5, Đường Số 2, Ấp 3B, Xã Vĩnh Lộc B, Bình Chánh</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">
+                © 2022 Sano Shoes. All rights reserved | Design by
+                <a href="https://www.facebook.com/phn.law12012001/">Sano</a>
+            </p>
+        </div>
+
+        <script src="./js/menu__sidebar.js"></script>
+        <script src="./js/occasion.js"></script>
+        <script src="./js/product.js"></script>
+        <script src="./js/render-data.js"></script>
+        <!-- <script src="./js/checkout.js"></script> -->
+</body>
+</html>

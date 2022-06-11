@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout | Sano Shoes</title>
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.svg" />
+    <!-- Box Icon -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <!-- CSS Glide  -->
+    <link rel="stylesheet" href="./css/glide.core.min.css">
+    <link rel="stylesheet" href="./css/glide.theme.min.css">
+    <!-- CSS Custom -->
+    <link rel="stylesheet" href="./css/checkout.css">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="search__form">
+            <form action="">
+                <input type="text" class="search__input " placeholder="Click Enter When Tapping...">
+            </form>
+        </div>
+
+        <div class="navigation__menu">
+            <ul class="navbar__list">
+                <li class="navbar__item">
+                    <a href="./index.html" class="navbar__link">Home</a>
+                </li>
+
+                <li class="navbar__item">
+                    <a href="./about.html" class="navbar__link">About</a>
+                </li>
+
+                <li class="navbar__item">
+                    <a href="./404.html" class="navbar__link">Team</a>
+                </li>
+
+                <li class="navbar__item">
+                    <a href="./shop.html" class="navbar__link">Shop Now</a>
+                </li>
+
+                <li class="navbar__item">
+                    <a href="./contact.html" class="navbar__link">Contact</a>
+                </li>
+            </ul>
+            <i class='bx bx-x close__btn'></i>
+        </div>
+        <div class="header__navigation">
+            <div class="logo">
+                <a class="navbar__brand" href="./index.html">
+                    <span>Sano</span> <i>Shoes</i>
+                </a>
+            </div>
+            <div class="navigation__item">
+                <div class="cart__item">
+                    <i class='bx bxs-cart-add'></i>
+                </div>
+
+                <div class="search__btn">
+                    <i class='bx bx-search-alt-2'></i>
+                </div>
+
+                <div class="navbar__menu">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="breadcrumb">
+            <ul>
+                <li>
+                    <a href="./index.html">Home</a>
+                    <i>|</i>
+                </li>
+                <li>Checkout</li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="checkout">
+        <div class="checkout__container container">
+            <h3>Checkout</h3>
+            <div class="checkout__main">
+                <div class="checkout__table">
+                    <h4>Your Product In Your Cart</h4>
+                    <table class="table__product">
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>Quantity</th>
+                                <th>Product Name</th>
+                                <th>Price</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- <tr class="rem1">
+                                <td class="invert">1</td>
+                                <td class="invert invert__image">
+                                    <img src="./images/s1.jpg" alt="">
+                                </td>
+                                <td class="invert">
+                                    <div class="quantity">
+                                        <div class="quantity__select">
+                                            <div class="quantity__minus"><i class='bx bx-minus'></i></div>
+                                            <div class="quantity__value">1</div>
+                                            <div class="quantity__minus"><i class='bx bx-plus'></i></div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="invert">Bella Toes</td>
+                                <td class="invert">$675.00</td>
+                            </tr> -->
+                        </tbody>
+                    </table>
+                </div>
+                <div class="checkout__information">
+
+                    <div class="checkout__information-left">
+                        <h4>Continue to basket</h4>
+                        <ul>
+                            <li>Product <i>-</i> <span>$675.00</span></li>
+                            <li>Product2 <i>-</i> <span>$325.00</span></li>
+                            <li>Product3 <i>-</i> <span>$405.00</span></li>
+                            <li>Total Service Charge <i>-</i> <span>$55.00</span></li>
+                            <li>Total <i>-</i> <span>$1405.00</span></li>
+                        </ul>
+                    </div>
+
+                    <div class="checkout__information-right">
+                        <h4>Add a new Details</h4>
+                        <div class="checkout__information-form">
+                            <div class="controls">
+                                <label for="" class="controls__label">Full Name:</label>
+                                <input type="text" class="" placeholder="Full Name...">
+                            </div>
+
+                            <div class="controls">
+                                <label for="" class="controls__label">Mobile Number:</label>
+                                <input type="text" class="" placeholder="Mobile Number...">
+                            </div>
+
+                            <div class="controls">
+                                <label for="" class="controls__label">Address:</label>
+                                <input type="text" class="" placeholder="Address...">
+                            </div>
+
+                            <div class="controls">
+                                <label for="" class="controls__label">City:</label>
+                                <input type="text" class="" placeholder="City...">
+                            </div>
+
+                            <div class="controls">
+                                <label for="" class="controls__label">Address Type:</label>
+                                <select name="" id="">
+                                    <option value="">Office</option>
+                                    <option value="">Home</option>
+                                    <option value="">School</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="more__shoes">
+        <div class="more__shoes-text">
+            <p>Some More Shoes</p>
+        </div>
+        <div class="more__shoes-img">
+            <div class="thumbnail">
+                <img src="./images/g1.jpg" alt="">
+            </div>
+            <div class="thumbnail">
+                <img src="./images/g2.jpg" alt="">
+            </div>
+            <div class="thumbnail">
+                <img src="./images/g3.jpg" alt="">
+            </div>
+            <div class="thumbnail">
+                <img src="./images/g4.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="newsletter">
+        <div class="newsletter_container container">
+            <div class="newsletter-text">
+                <p>Sign up for Newsletter !</p>
+            </div>
+            <div class="newsletter-form">
+                <form action="">
+                    <input type="email" class="email__input" placeholder="Enter Your Email...">
+                    <a href="#" class="newsletter-btn">Submit</a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer__content container">
+            <div class="footer__left">
+                <h2>
+                    <a href="./index.html">
+                        <span>S</span>ano Shoes
+                    </a>
+                </h2>
+                <p>Niềm vui và sự thoải mái của quý khách chính là niềm hạnh phúc và hãnh diện của chúng tôi</p>
+                <ul class="footer__social">
+                    <li class="footer__social-item">
+                        <a href="#" class="footer__social-link">
+                            <div class="fb"><i class='bx bxl-facebook'></i></div>
+                        </a>
+                    </li>
+
+                    <li class="footer__social-item">
+                        <a href="#" class="footer__social-link">
+                            <div class="twt"><i class='bx bxl-twitter'></i></div>
+                        </a>
+                    </li>
+
+                    <li class="footer__social-item">
+                        <a href="#" class="footer__social-link">
+                            <div class="ins"><i class='bx bxl-instagram'></i></div>
+                        </a>
+                    </li>
+
+                    <li class="footer__social-item">
+                        <a href="#" class="footer__social-link">
+                            <div class="lkd"><i class='bx bxl-linkedin'></i></div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__right">
+                <div class="information__1">
+                    <h3 class="information__header">
+                        <span>Our</span> Information
+                    </h3>
+
+                    <ul class="footer__navbar">
+                        <li class="footer__navbar-item">
+                            <a href="./index.html" class="footer__navbar-link">Home</a>
+                        </li>
+
+                        <li class="footer__navbar-item">
+                            <a href="./about.html" class="footer__navbar-link">About</a>
+                        </li>
+
+                        <li class="footer__navbar-item">
+                            <a href="./404.html" class="footer__navbar-link">Services</a>
+                        </li>
+
+                        <li class="footer__navbar-item">
+                            <a href="./404.html" class="footer__navbar-link">Short Code</a>
+                        </li>
+
+                        <li class="footer__navbar-item">
+                            <a href="./contact.html" class="footer__navbar-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="information__2">
+                    <h3 class="information__header">
+                        <span>Store</span> Information
+                    </h3>
+
+                    <div class="infor">
+                        <div class="phone__number">
+                            <div class="icon"><i class='bx bx-phone'></i></div>
+                            <div class="information__text">
+                                <h6>Phone Number</h6>
+                                <p>0774178644</p>
+                            </div>
+                        </div>
+
+                        <div class="email">
+                            <div class="icon"><i class='bx bx-envelope'></i></div>
+                            <div class="information__text">
+                                <h6>Email Address</h6>
+                                <p>Email:
+                                    <a href="#" class="mail"> phantuantai1201@gmail.com </a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="location">
+                            <div class="icon map"><i class='bx bx-map'></i></div>
+                            <div class="information__text">
+                                <h6>Location</h6>
+                                <p>C11B/5, Đường Số 2, Ấp 3B, Xã Vĩnh Lộc B, Bình Chánh</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="copyright">
+            © 2022 Sano Shoes. All rights reserved | Design by
+            <a href="https://www.facebook.com/phn.law12012001/">Sano</a>
+        </p>
+    </div>
+
+    <script src="./js/product.js"></script>
+    <script src="./js/occasion.js"></script>
+    <!-- <script src="./js/render-data.js"></script> -->
+    <script src="./js/checkout.js"></script>
+</body>
+
+</html>
